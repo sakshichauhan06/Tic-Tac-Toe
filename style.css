@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.game-box {
+    margin: 24px auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.heading {
+    padding: 16px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.level-div {
+    padding: 5px;
+}
+
+.select {
+    padding: 16px;
+    display: flex;
+    gap: 18px;
+}
+
+.choice-btn {
+    width: 120px;
+}
+
+.game {
+    border: 1px solid #000;
+    width: 100%;
+    height: 360px;
+}
+
+.restart {
+    padding: 24px;
+    font-size: 24px;
+}
